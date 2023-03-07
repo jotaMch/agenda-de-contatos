@@ -13,7 +13,7 @@ form.addEventListener('submit', function(e) {
 
     adicionaLinha();
     atualizaTabela();
-    atualizaContato();
+    atualizaContatoFinal();
 });
 
 function adicionaLinha() {
