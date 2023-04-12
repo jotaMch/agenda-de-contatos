@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #844e1c;
+    background-color: #3a3838;
     padding-top: 100px;
 }
 
@@ -61,6 +61,10 @@ form button {
     padding: 8px;
 }
 
+form button:hover {
+    background-color: #014919;
+}
+
 table {
     width: 100%;
 }
@@ -98,4 +102,62 @@ table td img {
 .erro {
     background-color: red;
     color: #fff;
+}
+
+@media (max-width: 767px) {
+    body {
+        padding-top: 0;
+    }
+    .container {
+        display: block;
+    }
+
+    header {
+        padding-left: 40px;
+    }
+
+    .container {
+    max-width: 960px;
+    width: 90%;
+    margin: 16px auto;
+}
+
+    form {
+    display: block;
+    margin-bottom: 6px;
+}
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form input {
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 12px;
+    background-color: #a5a2a2;
+    border-radius: 4px;
+}
+
+    button {
+        padding-left: 50%;
+    }
+
+    form button {
+        font-size: 14px;
+        padding: 8px;
+}
+    
+    
+    form button:hover {
+    background-color: #014919;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        width: 90%;
+    }
 }
